@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<h2><center>Student Registration Form</center></h2>
+<style>
+    form{
+        text-align: center;
+        align-items: center;
+        font-size: large;
+    }
+    body{
+        color: black;
+        background-color: plum;
+    }
+</style>
+</head>
+<body>
+<Form>
+    <fieldset><legend>About</legend>
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name"required><br><br>
+
+    <label for="email">Email:<label><br>
+        <input type="email" id="email"><br><br></fieldset>
+
+        <fieldset><legend>Basic info</legend>
+            <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <label for="hobbies">Hobbies:</label><br>
+        <input type="checkbox" name="hobby" value="Reading">Reading
+        <input type="checkbox" name="hobby" value="sports">sports<br><br>
+
+        <label for="course">Course:</label><br>
+        <select name="course" id="course">
+        <option value="B.Tech">B.Tech</option>
+        <option value="B.Sc">B.Sc</option>
+        <option value="B.Com">B.Com</option>
+        </select><br><br></fieldset>
+
+       <fieldset><legend>Compulsory data</legend>
+        <label for="about">About Yourself:</label><br>
+        <textarea id="about" name="about" rows="4" cols="30"></textarea><br><br>
+
+        <label for="Password">Password</label>
+        <input type="password" size="2" id="password" required><br><br>
+
+        <input type="Submit" value="Register"></fieldset> 
+
+</Form>
+
+</html>
