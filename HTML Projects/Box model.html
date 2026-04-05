@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model example</title>
+    <style>
+        .box{
+            border: 5px;
+            box-sizing: border-box;
+        }
+        
+        
+        .items{
+            border: 2px,cornsilk;
+            background: lightpink;
+            padding: 20px;
+            margin: 10px;
+            color: white;
+
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            height: 200px;
+            background-color: cornflowerblue;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box"><h3>Box model example</h3></div>
+
+    <div class="container">
+        <div class="items">Item 1</div>
+        <div class="items">Item 2</div>
+        <div class="items">Item 3</div>
+        <div class="items">Item 4</div>
+    </div>
+    
+</body>
+
+
+
