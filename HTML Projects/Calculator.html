@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        div{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        input{
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        input[type="button"]{
+            width: 100;
+            padding: 20px 40px;
+            background-color: beige;
+            color: black;
+            font-style: bold;
+            border-radius: 5px;
+        }
+        input[type="text"]{
+            padding: 50px 140px;
+            border-radius: 10px;
+            border: 5px solid black;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div><table id="calculator">
+       <tr><td colspan="4"> <input type="text" class="text" name="text" placeholder="value"></td></tr><br>
+       <b><tr><td><input type="button" name="AC" value="AC"></td>
+        <td><input type="button" name="back" value="X"></td>
+        <td><input type="button" name="modulus" value="%"></td>
+        <td><input type="button" name="division" value="÷"></td><br></tr>
+
+        <tr><td><input type="button" name="seven" value="7"></td>
+        <td><input type="button" name="eight" value="8"></td>
+        <td><input type="button" name="nine" value="9"></td>
+        <td><input type="button" name="multi" value="*"></td><br></tr>
+
+        <tr><td><input type="button" name="four" value="4"></td>
+        <td><input type="button" name="five" value="5"></td>
+        <td><input type="button" name="six" value="6"></td>
+        <td><input type="button" name="sub" value="-"></td><br></tr>
+
+       <tr><td><input type="button" name="one" value="1"></td>
+        <td><input type="button" name="two" value="2"></td>
+        <td><input type="button" name="three" value="3"></td>
+        <td><input type="button" name="add" value="+"></td><br></tr>
+
+        <tr><td><input type="button" name="root" value="√">
+        <td><input type="button" name="zero" value="0"></td>
+        <td><input type="button" name="point" value="."></td>
+        <td><input type="button" name="equal" value="="></td><br></tr></b>
+        </table>
+    </div>
+    
+</body>
+</html>
